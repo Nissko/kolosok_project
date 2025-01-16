@@ -1,0 +1,109 @@
+@media screen and (min-width:200px) and (max-width:1200px) {
+    /*header styles*/
+    .navigation-top-menu{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        background-color: rgba(15,50,130,1);
+        z-index: 3;
+        position: fixed;
+        box-shadow: 0px 9px 5px -5px rgba(0, 0, 0, 0.5);
+        transition: all 0.8s;
+        font-family: 'Geometria';
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .menu_first-lvl{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-around;
+        height: 110px;
+        color: white;
+        font-size: 20px;
+    }
+
+    .menu-slogan-legend{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: default;
+        width: 350px;
+        font-family: 'Mojito Web', sans-serif;
+        font-size: 38px;
+        text-align: right;
+    }
+    .menu_slogan-legend__style{
+        position: fixed;
+        padding-right: 10px;
+    }
+
+    .menu-logo-site{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+    }
+    .menu-logo-site__style{
+        padding-left: 100px;
+    }
+
+    .menu-contacts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+    }
+    .menu-contacts-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-number, .contact-email{
+        color: white;
+        cursor: auto;
+    }
+
+    .menu_second-lvl{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 80px;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .menu_second-lvl__btn_order_a_call{
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu_second-lvl__btn_order_a_call_style-btn{
+        background-color: white;
+        color: #0f3282;
+        border-radius: 30px;
+        width: 173px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu_second-lvl__btn{
+        display: flex;
+        justify-content: space-around;
+        width: 800px;
+    }
+    .menu-btn-style{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        width: 130px;
+        height: 22px;
+        margin: 5px;
+    }
+    .menu_second-lvl__block{
+        width: 350px;
+    }
+}
